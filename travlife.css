@@ -1,0 +1,847 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;700;800&family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container {
+    width: 81.5%;
+    /* max-width: 1170px; */
+    max-width: 73.125rem;
+    margin: 0 auto;
+    margin-bottom: 6.25rem;
+    border-radius: 16px;
+}
+
+/* haeder styles */
+header {
+    width: 81.5%;
+    /* max-width: 1170px; */
+    max-width: 73.125rem;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    /* background-color: aquamarine; */
+}
+
+span {
+    color: #FF5400;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 16.5px;
+    width: 50%;
+    /* border: 2px solid blue; */
+    color: #131318;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+.menus {
+    display: flex;
+    align-items: center;
+    gap: 44px;
+}
+
+.menus a {
+    text-decoration: none;
+    color: #424247;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+#bars {
+    display: none;
+}
+
+
+
+/* banner section styles */
+.banner {
+    margin-top: 50px;
+    /* height: 500px; */
+    /* background-color: #424244; */
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid rgb(255, 255, 255);
+    margin-bottom: 6.25rem;
+}
+
+.banner .content {
+    width: 69%;
+    max-width: 50rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 106px auto;
+    /* border: 2px solid red; */
+}
+
+.text h2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 1.125rem;
+}
+
+.text p {
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 3rem;
+}
+
+.inputs {
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    border-radius: 16px;
+}
+
+.inputs input,
+select {
+    border: none;
+    padding: .5rem;
+    /* margin-right: 1.5rem; */
+    border-radius: .5rem;
+    font-size: 1rem;
+}
+
+button {
+    border: none;
+    border-radius: .5rem;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 16px;
+}
+
+.inputs button {
+    display: flex;
+    align-items: center;
+}
+
+.inputs button img {
+    width: 25px;
+    height: 25px;
+    margin-right: .5rem;
+}
+
+
+/* tours section styles */
+.tours {
+    /* background-color: #424247; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.tours .text {
+    width: 50%;
+}
+
+/* .tours .img{
+    width: 50%;
+} */
+
+.tours .text h2 {
+    color: #131318;
+    text-align: left;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.tours .text p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.tours .text ul {
+    list-style-position: inside;
+    margin-bottom: 24px;
+}
+
+.tours .text li {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+
+
+/* destination styles */
+.destination .text h2 {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.destination .text p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.destination .img {
+    width: 1170px;
+
+}
+
+.destination .img div {
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.destination .img #maldive {
+    background-image: url(../Images/Rectangle\ 5.png);
+    width: 573px;
+    height: 300px;
+}
+
+.destination .img #indo {
+    background-image: url(../Images/Rectangle\ 8.png);
+    width: 573px;
+    height: 300px;
+}
+
+.destination .img #sri {
+    background-image: url(../Images/Rectangle\ 6.png);
+    width: 374px;
+    height: 286px;
+}
+
+.destination .img #america {
+    background-image: url(../Images/Rectangle\ 7.png);
+    width: 474px;
+    height: 286px;
+    margin-right: -160px;
+}
+
+.destination .img #kashmir {
+    background-image: url(../Images/Rectangle\ 9.png);
+    width: 274px;
+    height: 286px;
+    /* margin-left: -150px; */
+}
+
+.destination .img #bd {
+    background-image: url(../Images/Rectangle\ 11.png);
+    width: 473px;
+    height: 300px;
+}
+
+.destination .img #bandar {
+    background-image: url(../Images/Rectangle\ 10.png);
+    width: 673px;
+    height: 300px;
+    margin-left: -100px;
+}
+
+#maldive {
+    grid-area: maldive;
+}
+
+#sri {
+    grid-area: sri;
+}
+
+#indo {
+    grid-area: indo;
+}
+
+#america {
+    grid-area: america;
+}
+
+#kashmir {
+    grid-area: kashmir;
+}
+
+#bd {
+    grid-area: bd;
+}
+
+#bandar {
+    grid-area: bandar;
+}
+
+.destination .img {
+    display: grid;
+    grid-template-areas:
+        "maldive maldive indo indo"
+        "sri america america kashmir"
+        "bd bd bandar bandar"
+    ;
+
+    gap: 24px;
+    /* margin-right: 24px; */
+}
+
+
+
+/* choose section styles */
+.content1 {
+    margin-bottom: 24px;
+}
+
+.choose .text h2 {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 1.25rem;
+}
+
+.choose .text p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.hotel {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px;
+}
+
+.service {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 32px;
+}
+
+.price {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    width: 49%;
+    max-width: 573px;
+    margin: 0 auto;
+    padding: 32px;
+}
+
+.price h2 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.price p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.choose .price img {
+    margin-bottom: 32px;
+}
+
+.choose .content1 img {
+    margin-bottom: 32px;
+}
+
+.choose .content1 h2 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.choose .content1 p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.choose .content1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+
+/* newsletter styles */
+.newsletter {
+    display: flex;
+    gap: 24px;
+}
+
+.newsletter .form {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 40px;
+}
+
+.newsletter .form input {
+    padding: 16px 20px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-bottom: 16px;
+}
+
+.newsletter .form input,
+button {
+    width: 83%;
+    max-width: 393px;
+}
+
+.newsletter .form h2 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+hr {
+    width: 83%;
+    max-width: 393px;
+    background: rgba(19, 19, 24, 0.10);
+    margin: 24px auto;
+}
+
+.newsletter .form p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.newsletter .img {
+    width: 60%;
+    max-width: 672px;
+    background: url(../Images/Rectangle\ 8\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+}
+
+.newsletter .discount {
+    width: 48%;
+    border-radius: 16px;
+    background: #FF5400;
+    padding: 56px 67px 45px 35px;
+    border: none;
+    transform: rotate(-40deg);
+    /* position: bottom right; */
+    /* bottom: 50px;
+    right: 60px; */
+    margin-top: 250px;
+    margin-left: 250px;
+    margin-bottom: 110px;
+}
+
+
+.newsletter .discount p {
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.newsletter .discount h3 {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+
+}
+
+
+
+/* footer section styles */
+footer {
+    text-align: center;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    background: rgba(19, 19, 24, 0.05);
+    /* padding: 100px 335px; */
+
+}
+
+footer .f-content {
+    text-align: center;
+    width: 61%;
+    max-width: 870px;
+    margin: 100px auto;
+    padding: 100px 0px;
+
+}
+
+footer .f-content .f-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+footer .f-content p {
+    /* width: 54%;
+    max-width: 770px; */
+    margin: 0 auto;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+
+footer .f-content .social img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+footer .f-content .social {
+    width: 13%;
+    max-width: 175px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    gap: 40px
+}
+
+.footer hr {
+    width: 61%;
+    max-width: 875px;
+    margin: 0 auto;
+}
+
+#copyright {
+    font-family: Inter;
+}
+
+button {
+    cursor: pointer;
+    /* transition: 2s; */
+}
+
+button:hover {
+    background: linear-gradient(45deg, rgb(26, 25, 25), red);
+
+}
+
+.fly {
+    display: 0;
+}
+
+.extra .join {
+    /* border: 2px solid red; */
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../Images/world.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 300px;
+    flex-direction: column;
+}
+
+.extra .join h1 {
+    font-weight: 900;
+    font-size: 100px;
+    background: linear-gradient(180deg, rgba(202, 227, 247, 0.8) 0%, rgba(19, 19, 24, 0.00) 100%);
+    border-radius: 32px;
+    cursor: progress;
+    margin-bottom: 20px;
+}
+
+.extra .join p {
+    color: #e60b16;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.extra .join:hover {
+    background: url(../Images/plane.jpg);
+    transition: 2s;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/* mobile responsive */
+@media screen and (max-width: 600px) {
+    * {
+        overflow-x: hidden;
+    }
+
+    /* navbar */
+    header {
+        margin-top: 20px;
+    }
+
+    .icon {
+        font-size: 1em;
+    }
+
+    .menus {
+        display: none;
+    }
+
+    #bars {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* banner section */
+    .banner {
+        /* padding: 32px 24px; */
+        margin-top: 17.8px;
+        height: 70vh;
+    }
+
+    .banner .content {
+        border-radius: 25px;
+        width: 60vw;
+        /* height: 65vh; */
+    }
+
+    .text h2 {
+        color: #FFF;
+        font-size: 22px;
+        font-weight: 800;
+        margin-bottom: 1rem;
+    }
+
+    .text p {
+        margin-bottom: 32px;
+    }
+
+    .inputs {
+        flex-direction: column;
+        border-radius: 16px;
+        padding: 16px;
+    }
+
+    /* tours section */
+    .tours {
+        flex-direction: column;
+    }
+
+    .tours .text {
+        width: 80vw;
+    }
+
+    .tours .text h2 {
+        font-size: 20px;
+    }
+
+    .tours .text p,
+    li {
+        width: 80vw;
+    }
+
+    .tours .text button {
+        margin-bottom: 1.25rem;
+    }
+
+    .tours .img {
+        width: 80vw;
+    }
+
+    .tours .img img {
+        width: 100%;
+    }
+
+    /* destination section */
+    .destination .img {
+        overflow-x: hidden;
+    }
+
+    .destination .text h2 {
+        text-align: center;
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .destination .text p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .destination .img {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .destination .img #maldive {
+        border-radius: 16px;
+        width: 80vw;
+        background-size: cover;
+    }
+
+    .destination .img #indo {
+        border-radius: 16px;
+        width: 80vw;
+    }
+
+    .destination .img #sri {
+        border-radius: 16px;
+        width: 80vw;
+    }
+
+    .destination .img #america {
+        border-radius: 16px;
+        width: 80vw;
+    }
+
+    .destination .img #kashmir {
+        border-radius: 16px;
+        width: 80vw;
+    }
+
+    .destination .img #bd {
+        border-radius: 16px;
+        width: 80vw;
+    }
+
+    .destination .img #bandar {
+        border-radius: 16px;
+        margin-left: 4px;
+        text-align: center;
+        width: 80vw;
+    }
+
+    /* choose section */
+    .choose .content1 {
+        flex-direction: column;
+    }
+
+    .choose .price {
+        width: 71vw;
+    }
+
+    /* newsletter section */
+    .newsletter {
+        flex-direction: column;
+    }
+
+    .newsletter .img {
+        width: 82vw;
+    }
+
+    .newsletter .discount {
+        width: 64%;
+        margin-left: 150px;
+        margin-bottom: 95px;
+        padding: 20px 20px;
+    }
+
+    /* footer section */
+    footer .f-content {
+        text-align: center;
+        width: 90%;
+        /* width: 60vw;
+        margin-left: -300px; */
+        margin: 50px auto;
+    }
+
+    footer .social {
+        width: 100vw;
+        gap: 40px;
+    }
+
+    footer .social img {
+
+        height: 24px;
+        width: 24px;
+    }
+    /* extra section */
+    .extra {
+        width: 80vw;
+        height: 70vh;
+    }
+    .extra .join {
+        /* border: 2px solid red; */
+        border-radius: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: url(../Images/world.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 300px;
+        flex-direction: column;
+        /* overflow-y: hidden; */
+        overflow-x: visible;
+    }
+    
+    .extra .join h1 {
+        font-weight: 700;
+        font-size: 100px;
+        background: linear-gradient(180deg, rgba(202, 227, 247, 0.8) 0%, rgba(19, 19, 24, 0.00) 100%);
+        border-radius: 32px;
+        cursor: progress;
+        width: 60vw;
+        margin: 0 auto;
+        margin-left: -100px;
+        
+    }
+    
+    .extra .join p {
+        color: #e60b16;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 26px;
+    }
+}

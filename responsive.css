@@ -1,0 +1,122 @@
+/* mobile responsive */
+@media screen and (max-width: 600px) {
+
+    /* navbar */
+    header {
+        margin-top: 20px;
+    }
+
+    .icon {
+        font-size: 1em;
+    }
+
+    .menus {
+        display: none;
+    }
+
+    #bars {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* banner section */
+    .banner {
+        padding: 32px 24px;
+        margin-top: 17.8px;
+        height: 70vh;
+    }
+
+    .text h2 {
+        color: #FFF;
+        font-size: 22px;
+        font-weight: 800;
+        margin-bottom: 1rem;
+    }
+
+    .text p {
+        margin-bottom: 32px;
+    }
+
+    .inputs {
+        flex-direction: column;
+    }
+
+    /* tours section */
+    .tours {
+        flex-direction: column;
+    }
+
+    .tours .text h2 {
+        font-size: 20px;
+    }
+
+    .tours .text p,
+    li {
+        width: 80vw;
+    }
+
+    .tours .text button {
+        margin-bottom: 1.25rem;
+    }
+
+    .tours .img {
+        width: 80vw;
+    }
+
+    .tours .img img {
+        width: 100%;
+    }
+
+    /* destination section */
+    .destination .text h2 {
+        text-align: center;
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .destination .text p{
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    .destination .img{
+        display: flex;
+        flex-direction: column;
+    }
+    .destination .img #maldive{
+        border-radius: 16px;
+        width: 80vw;
+        background-size: cover;
+    }
+    .destination .img #indo{
+        border-radius: 16px;
+        width: 80vw;
+    }
+    .destination .img #sri{
+        border-radius: 16px;
+        width: 80vw;
+    }
+    .destination .img #america{
+        border-radius: 16px;
+        width: 80vw;
+    }
+    .destination .img #kashmir{
+        border-radius: 16px;
+        width: 80vw;
+    }
+    .destination .img #bd{
+        border-radius: 16px;
+        width: 80vw;
+    }
+    .destination .img #bandar{
+        border-radius: 16px;
+        margin-left: 4px;
+        text-align: center;
+        width: 80vw;
+    }
+}
