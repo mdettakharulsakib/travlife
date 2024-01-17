@@ -1,6 +1,8 @@
 @media screen and (max-width: 600px) {
+    * {
+        overflow-x: hidden;
+    }
 
-    
     header {
         margin-top: 20px;
     }
@@ -24,10 +26,16 @@
         justify-content: space-between;
     }
 
+    
     .banner {
-        padding: 32px 24px;
+        
         margin-top: 17.8px;
         height: 70vh;
+    }
+
+    .banner .content {
+        border-radius: 25px;
+        width: 60vw;
     }
 
     .text h2 {
@@ -43,10 +51,16 @@
 
     .inputs {
         flex-direction: column;
+        border-radius: 16px;
+        padding: 16px;
     }
 
     .tours {
         flex-direction: column;
+    }
+
+    .tours .text {
+        width: 80vw;
     }
 
     .tours .text h2 {
@@ -70,52 +84,65 @@
         width: 100%;
     }
 
-    
+    .destination .img {
+        overflow-x: hidden;
+    }
+
     .destination .text h2 {
         text-align: center;
         font-size: 20px;
         font-weight: 800;
     }
-    .destination .text p{
+
+    .destination .text p {
         font-size: 14px;
         text-align: center;
     }
-    
-    .destination .img{
+
+    .destination .img {
         display: flex;
         flex-direction: column;
     }
-    .destination .img #maldive{
+
+    .destination .img #maldive {
         border-radius: 16px;
         width: 80vw;
         background-size: cover;
     }
-    .destination .img #indo{
+
+    .destination .img #indo {
         border-radius: 16px;
         width: 80vw;
     }
-    .destination .img #sri{
+
+    .destination .img #sri {
         border-radius: 16px;
         width: 80vw;
     }
-    .destination .img #america{
+
+    .destination .img #america {
         border-radius: 16px;
         width: 80vw;
     }
-    .destination .img #kashmir{
+
+    .destination .img #kashmir {
         border-radius: 16px;
         width: 80vw;
     }
-    .destination .img #bd{
+
+    .destination .img #bd {
         border-radius: 16px;
         width: 80vw;
     }
-    .destination .img #bandar{
+
+    .destination .img #bandar {
         border-radius: 16px;
         margin-left: 4px;
         text-align: center;
         width: 80vw;
     }
+
+    
     .choose .content1 {
         flex-direction: column;
     }
@@ -149,6 +176,8 @@
     footer .social {
         width: 100vw;
         gap: 40px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
     }
 
     footer .social img {

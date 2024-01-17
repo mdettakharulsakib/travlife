@@ -540,19 +540,12 @@ footer .f-content .social {
 
 button {
     cursor: pointer;
-    transition: 0.1s;
     
 }
 
 button:hover {
-    background: red;
-    transform: scale(1.2, 1.2);
+    background: linear-gradient(45deg, rgb(26, 25, 25), red);
 
-
-}
-
-.fly {
-    display: 0;
 }
 
 
