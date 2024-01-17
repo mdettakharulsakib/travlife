@@ -116,4 +116,44 @@
         text-align: center;
         width: 80vw;
     }
+    .choose .content1 {
+        flex-direction: column;
+    }
+
+    .choose .price {
+        width: 71vw;
+    }
+
+    .newsletter {
+        flex-direction: column;
+    }
+
+    .newsletter .img {
+        width: 82vw;
+    }
+
+    .newsletter .discount {
+        width: 64%;
+        margin-left: 150px;
+        margin-bottom: 95px;
+        padding: 20px 20px;
+    }
+
+
+    footer .f-content {
+        text-align: center;
+        width: 90%;
+        margin: 50px auto;
+    }
+
+    footer .social {
+        width: 100vw;
+        gap: 40px;
+    }
+
+    footer .social img {
+
+        height: 24px;
+        width: 24px;
+    }
 }
