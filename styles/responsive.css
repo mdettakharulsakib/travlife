@@ -175,7 +175,7 @@
 
     footer .social {
         width: 100vw;
-        gap: 40px;
+        gap: 30px;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
     }
